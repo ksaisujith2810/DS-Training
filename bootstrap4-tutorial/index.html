@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./apple-touch-icon.png">
+
+    <title>Bootstrap4-Tutorial</title>
+
+    <!-- Bootstrap4  CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        /* media screen */
+        body{
+            background-color: aqua;
+        }
+@media screen and (min-width:576px){
+    body{
+        background-color: red;
+    }   
+}
+@media screen and (min-width:768px){
+    body{
+        background-color:blue ;
+    }   
+}
+@media screen and (min-width:992px){
+    body{
+        background-color: green;
+    }   
+}
+@media screen and (min-width:1260px){
+    body{
+        background-color:yellow;
+    }   
+}   
+    </style>
+</head>
+<body>
+    <!-- colors & Bg-colors -->
+
+    <h1 class="text-primary">Bootstrap4</h1>
+    <h1 class="text-secondary">Bootstrap4</h1>
+    <h1 class="text-danger">Bootstrap4</h1>
+    <h1 class="text-warning">Bootstrap4</h1>
+    <h1 class="text-success">Bootstrap4</h1>
+    <h1 class="text-info">Bootstrap4</h1>
+    <h1 class="text-dark">Bootstrap4</h1>
+    <h1 class="text-white bg-dark">Bootstrap4</h1>
+    <h1 class="text-light bg-dark">Bootstrap4</h1>
+    <h1 class="text-muted">Bootstrap4</h1>
+    <br>
+    <br>
+    <h1 class="bg-primary">Bootstrap4</h1>
+    <h1 class="bg-secondary">Bootstrap4</h1>
+    <h1 class="bg-danger">Bootstrap4</h1>
+    <h1 class="bg-warning">Bootstrap4</h1>
+    <h1 class="bg-success">Bootstrap4</h1>
+    <h1 class="bg-muted">Bootstrap4</h1>
+    <h1 class="bg-info">Bootstrap4</h1>
+    <h1 class="bg-light">Bootstrap4</h1>
+    <h1 class="bg-white">Bootstrap4</h1>
+    <br>
+    <br>
+    <br>
+
+    <!-- headings -->
+    <h1>Digisprint</h1>
+    <h2>Digisprint</h2>
+    <h3>Digisprint</h3>
+    <h4>Digisprint</h4>
+    <h5>Digisprint</h5>
+    <h6>Digisprint</h6>
+    <br>
+    <br>
+    <br>
+
+    <!-- heading has a class -->
+
+    <p class="h1">i am 40px or size of h1</p>
+    <br>
+    <br>
+    <br>
+
+    <!-- display as class -->
+    <h1 class="display-1">display as class with 96px </h1>
+    <br>
+    <br>
+    <br>
+
+    <h1>normal text <small>i am smaller text</small></h1>
+    <br>
+    <br>
+    <br>
+
+    <!-- marked -->
+    <h1>hiii i am <marked>sujith</marked></h1>
+    <h1>hiii i am <code>sujith</code></h1>
+    <h1>hiii i am <kbd>sujith</kbd></h1>
+    <p class="h3">hiii i am <marked>sujith</marked></p>
+    <br>
+    <br>
+    <br>
+
+    <!-- text&font-styles -->
+    <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <p class="text-lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi maiores placeat inventore repellendus nobis blanditiis illo in itaque eaque.</p>
+    <br>
+    <br>
+    <!-- containers&fluid containers -->
+    <div class="container bg-danger"> i am the container</div>
+    <div class="container-fluid bg-primary">i am the container-fluid</div>
+    <br>
+    <br>
+    <br>
+
+    <!-- grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger">i am a coloum</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-primary col-lg-2">i am a coloum</div>
+            <div class="col bg-info col-lg-2">i am a coloum</div>
+            <div class="col bg-warning col-lg-2 ">i am a coloum</div>
+            <div class="col bg-dark col-lg-2">i am a coloum</div>
+        </div>
+    </div>
+    
+
+    
+
+
+    <!-- Bootstrap4 JS CDN's -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

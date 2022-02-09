@@ -1,0 +1,119 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: rgb(33, 179, 179);
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 15pt;
+    color: chocolate;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px inset rgb(239, 243, 4);
+    padding: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.img-circle {
+    border: 3px solid white;
+    border-radius: 80%;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#header {
+    background-image: url("./htmlpic.jpg");
+    width: cover;
+    height: cover;
+    background-size: cover;
+}
+
+#header img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+#header p {
+    font-size: 25pt;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #0a0a0a;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+th{
+    background-color: orange;
+}
+
+tr{
+    background-color: rgba(13, 176, 240, 0.897);
+}
+
+li {
+    margin-bottom: 15px;
+    list-style-type: square;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+#contacts img {
+    height: 60px;
+    width: 60px;
+    margin-left: 9px;
+    margin-right: 6px;
+}
+
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
