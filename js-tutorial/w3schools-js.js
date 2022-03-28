@@ -1,7 +1,7 @@
+function printStar(variable){
+        let alpha = 'abcdefghijklmopqrstvuwxyz'
+        { for(let i=1;i<=variable;i++)
 
-document.getElementById("sujith").innerHTML =
-        "here the solution is" + " " + c;  
-
-
-    
-
+        console.log(alpha.slice(0,i))
+}}
+printStar(8)

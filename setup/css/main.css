@@ -1,3 +1,11 @@
 body{
-    font-family: 'Arvo', serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.form-control{
+    background-color: rgb(241, 244, 245);
+}
+.btn{
+    width: 140px;
 }
